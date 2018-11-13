@@ -1,4 +1,4 @@
-class dirs {
+class system::dirs::dirs {
 
 	file { "C:\\packages":
 		ensure => "directory",

@@ -1,4 +1,4 @@
-class registry::pause_win_update {
+class system::registry::pause_win_update {
 
 	registry_value { 'HKLM\SOFTWARE\Microsoft\Windows\Windows\AU':
   	ensure => present,

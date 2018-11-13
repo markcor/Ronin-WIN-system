@@ -1,5 +1,5 @@
 class system {
-	include dirs
-	include registry
-	include services
+	include system::dirs::dirs
+	include system::registry::registry
+	include system::services::services
 }
